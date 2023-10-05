@@ -1,23 +1,23 @@
-// #include<iostream>
-// #include<vector>
-// #include<algorithm>
+ #include<iostream>
+ #include<vector>
+ #include<algorithm>
 
-// using namespace std;
+ using namespace std;
 
-// int main()
-// {
-//     vector<int> v;
-//     v.push_back(1);
-//     v.push_back(5);
-//     v.push_back(9);
-//     v.push_back(13);
-//     v.push_back(134);
+ int main()
+ {
+     vector<int> v;
+     v.push_back(1);
+     v.push_back(5);
+     v.push_back(9);
+    v.push_back(13);
+   v.push_back(134);
 
-//     cout<<"finding 1:"<<binary_search(v.begin(),v.end(),1)<<endl;
-//     cout<<"lower bound :"<<lower_bound(v.begin(),v.end(),5)-v.begin()<<endl;
-//     cout<<"upper bound :"<<upper_bound(v.begin(),v.end(),9)-v.begin()<<endl;
-// return 0;
-// }
+    cout<<"finding 1:"<<binary_search(v.begin(),v.end(),1)<<endl;
+     cout<<"lower bound :"<<lower_bound(v.begin(),v.end(),5)-v.begin()<<endl;
+     cout<<"upper bound :"<<upper_bound(v.begin(),v.end(),9)-v.begin()<<endl;
+return 0;
+ }
 
 #include<iostream>
 #include<vector>
